@@ -1,0 +1,115 @@
+# view res/layout/add_device_view.xml #generated:178
+-keep class android.support.v4.view.ViewPager { <init>(...); }
+
+# view AndroidManifest.xml #generated:250
+-keep class com.baidu.location.f { <init>(...); }
+
+# view res/layout/activity_location.xml #generated:6
+# view res/layout/activity_routeplan.xml #generated:11
+-keep class com.baidu.mapapi.map.MapView { <init>(...); }
+
+# view AndroidManifest.xml #generated:111
+-keep class com.zbar.lib.CaptureActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:153
+-keep class weilan.app.activity.AboutActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:163
+-keep class weilan.app.activity.AddDeviceActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:173
+-keep class weilan.app.activity.BindingAcitivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:199
+-keep class weilan.app.activity.ChatActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:148
+-keep class weilan.app.activity.DeviceListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:107
+-keep class weilan.app.activity.LoginActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:158
+-keep class weilan.app.activity.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:119
+-keep class weilan.app.activity.RegisterActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:168
+-keep class weilan.app.activity.SearchActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:183
+-keep class weilan.app.activity.SetDeviceInfoActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:188
+-keep class weilan.app.activity.SetDeviceNameActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:128
+-keep class weilan.app.activity.SetInfoActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:178
+-keep class weilan.app.activity.SetheadActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:96
+-keep class weilan.app.activity.StartActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:133
+-keep class weilan.app.activity.SwOperateActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:115
+-keep class weilan.app.activity.TabMainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:193
+-keep class weilan.app.activity.UserNameActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:79
+-keep class weilan.app.main.BaiduMapApplication { <init>(...); }
+
+# view res/layout/activity_tabmain.xml #generated:34
+# view res/layout/activity_tabmain.xml #generated:52
+# view res/layout/activity_tabmain.xml #generated:69
+-keep class weilan.app.main.MyRadioButton { <init>(...); }
+
+# view AndroidManifest.xml #generated:242
+-keep class weilan.app.service.ConnectorService { <init>(...); }
+
+# view AndroidManifest.xml #generated:244
+-keep class weilan.app.service.NotifyService { <init>(...); }
+
+# view res/layout/book_view.xml #generated:28
+-keep class weilan.app.tools.pinyin.AssortView { <init>(...); }
+
+# view AndroidManifest.xml #generated:226
+-keep class weilan.app.tools.sms.Receiver { <init>(...); }
+
+# view res/layout/friends_list_view.xml #generated:36
+# view res/layout/slide_listview.xml #generated:15
+-keep class weilan.app.ui.ListViewCompat { <init>(...); }
+
+# view res/layout/dialog_updata_version.xml #generated:29
+# view res/layout/progress_custom.xml #generated:8
+-keep class weilan.app.ui.RoundProgressBar { <init>(...); }
+
+# view AndroidManifest.xml #generated:143
+-keep class yundian.tracker.main.LocationDemo { <init>(...); }
+
+# view AndroidManifest.xml #generated:138
+-keep class yundian.tracker.main.RoutePlanActivity { <init>(...); }
+
+# onClick res/layout/activity_routeplan.xml #generated:108
+# onClick res/layout/activity_routeplan.xml #generated:82
+# onClick res/layout/activity_routeplan.xml #generated:95
+-keepclassmembers class * { *** SearchButtonProcess(...); }
+
+# onClick res/layout/chat.xml #generated:14
+-keepclassmembers class * { *** chat_back(...); }
+
+# onClick res/layout/activity_routeplan.xml #generated:27
+# onClick res/layout/activity_routeplan.xml #generated:37
+-keepclassmembers class * { *** nodeClick(...); }
+
+# onClick res/layout/test_activity_main.xml #generated:140
+# onClick res/layout/test_activity_main.xml #generated:182
+# onClick res/layout/test_activity_main.xml #generated:97
+-keepclassmembers class * { *** onTabClicked(...); }
+

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myradio="http://schemas.android.com/apk/res/weilan.app.main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/skyblue" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:id="@+id/tab_content_id"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.0"
+            android:background="@color/white" />
+
+        <!-- <ImageButton -->
+        <!-- android:layout_width="30dp" -->
+        <!-- android:layout_height="30dp" -->
+        <!-- android:background="@drawable/shouye_red" -->
+        <!-- /> -->
+
+        <RadioGroup
+            android:id="@+id/rgs"
+            android:layout_width="fill_parent"
+            android:layout_height="54dp"
+            android:background="@color/skyblue"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <weilan.app.main.MyRadioButton
+                android:id="@+id/tab_a_id"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="@color/skyblue"
+                android:button="@null"
+                android:checked="true"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="开关"
+                android:textColor="@color/darkskyblue"
+                android:textSize="13sp"
+                myradio:drawableSize="25dp"
+                myradio:drawableTop="@drawable/radiobutton_sw" />
+
+            <weilan.app.main.MyRadioButton
+                android:id="@+id/tab_f_id"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="@color/skyblue"
+                android:button="@null"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="好友"
+                android:textColor="@color/white"
+                android:textSize="13sp"
+                myradio:drawableSize="25dp"
+                myradio:drawableTop="@drawable/radiobutton_dw" />
+
+            <weilan.app.main.MyRadioButton
+                android:id="@+id/tab_c_id"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="@color/skyblue"
+                android:button="@null"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="我的"
+                android:textColor="@color/white"
+                android:textSize="13sp"
+                myradio:drawableSize="25dp"
+                myradio:drawableTop="@drawable/radiobutton_wode" />
+        </RadioGroup>
+    </LinearLayout>
+
+</RelativeLayout>

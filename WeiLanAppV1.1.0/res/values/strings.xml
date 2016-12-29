@@ -1,0 +1,31 @@
+<resources>
+
+    <string name="app_name">微蓝</string>
+    <string name="mobile">Please input the TEL No.</string>
+    <string name="ZWmobile">请输入手机号码</string>
+    <string name="content">Please input the SMS content.</string>
+    <string name="ZWcontent">请输入短信内容</string>
+    <string name="button">SEND</string>
+    <string name="message">请求成功请等待!</string>
+    <string name="smsset">设置</string>
+    <string name="titl">云点追踪</string>
+    <string name="check">查询</string>
+    <string name="scan_tips">将二维码图片对准扫描框即可自动扫描</string>
+    <string name="action_search">搜索</string>
+    <string name="action_plus">功能</string>
+    <string name="action_album">我的相册</string>
+    <string name="action_collection">我的收藏</string>
+    <string name="action_card">我的银行卡</string>
+    <string name="action_settings">设置</string>
+    <string name="action_feed">意见反馈</string>
+    <string name="plus_group_chat">发起群聊</string>
+    <string name="plus_add_friend">添加朋友</string>
+    <string name="plus_video_chat">视频聊天</string>
+    <string name="plus_scan">扫一扫</string>
+    <string name="plus_take_photo">拍照分享</string>
+
+    <!-- 好友列表 -->
+
+    <string name="friend">好友</string>
+
+</resources>

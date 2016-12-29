@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/info_title_id"
+        layout="@layout/titlebar2" />
+
+    <TextView
+        android:id="@+id/info_textView1_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/info_title_id"
+        android:text="设备名称" />
+
+    <EditText
+        android:id="@+id/info_editText1_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/info_textView1_id"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/info_textView2_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/info_editText1_id"
+        android:text="绑定号码" />
+
+    <EditText
+        android:id="@+id/info_editText2_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/info_textView2_id"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/info_textView3_id"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/info_editText2_id"
+        android:text="设备绑定控制" />
+
+    <LinearLayout
+        android:id="@+id/info_Linear_id"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/info_textView3_id"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/info_hostBtn_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="绑定主人模式" >
+        </Button>
+
+        <Button
+            android:id="@+id/info_lostBtn_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/info_hostBtn_id"
+            android:layout_weight="1"
+            android:text="退出主人模式" >
+        </Button>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/chat_bg_default"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@color/skyblue" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:text="微蓝"
+            android:textColor="@color/white"
+            android:textSize="23sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/login_div"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dip"
+        android:background="@drawable/login_background_div"
+        android:padding="15dip" >
+
+        <!-- 账号 -->
+
+        <TextView
+            android:id="@+id/login_user_input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="5dp"
+            android:text="账号" />
+        <!-- style="@style/normalText" -->
+
+        <EditText
+            android:id="@+id/login_nameEdt_id"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/login_user_input"
+            android:hint="请输入用户名"
+            android:inputType="text"
+            android:singleLine="true" />
+        <!-- 密码 text -->
+
+        <TextView
+            android:id="@+id/login_password_input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/login_nameEdt_id"
+            android:layout_marginTop="3dp"
+            android:text="密码" />
+        <!-- style="@style/normalText" -->
+
+        <EditText
+            android:id="@+id/login_passwordEdt_id"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/login_password_input"
+            android:hint="请输入密码"
+            android:inputType="textPassword"
+            android:password="true"
+            android:singleLine="true" />
+        <!-- 登录button -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/login_passwordEdt_id"
+            android:orientation="vertical" >
+
+            <!-- <CheckBox -->
+            <!-- android:id="@+id/login_remberPassWordBox_id" -->
+            <!-- android:layout_width="wrap_content" -->
+            <!-- android:layout_height="wrap_content" /> -->
+
+
+            <!-- <TextView -->
+            <!-- android:layout_width="wrap_content" -->
+            <!-- android:layout_height="wrap_content" -->
+            <!-- android:text="记住密码" /> -->
+
+
+            <!-- <CheckBox -->
+            <!-- android:id="@+id/login_autoBox_id" -->
+            <!-- android:layout_width="wrap_content" -->
+            <!-- android:checked="false" -->
+            <!-- android:layout_height="wrap_content" /> -->
+
+
+            <!-- <TextView -->
+            <!-- android:layout_width="wrap_content" -->
+            <!-- android:layout_height="wrap_content" -->
+            <!-- android:text="自动登录" /> -->
+
+            <Button
+                android:id="@+id/login_btn_id"
+                android:layout_width="150dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="18dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_blue"
+                android:text="登陆" />
+            <!-- android:layout_marginRight="5sp" -->
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/login_text_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="没有账号?" />
+
+        <TextView
+            android:id="@+id/register_text_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@id/login_text_1"
+            android:text="注册"
+            android:textColor="#888"
+            android:textColorLink="#FF0066CC" />
+
+        <!-- <LinearLayout -->
+        <!-- android:layout_width="fill_parent" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:layout_below="@id/register_text_id" -->
+        <!-- android:orientation="horizontal" > -->
+
+
+        <!-- <CheckBox -->
+        <!-- android:id="@+id/login_remberPassWordBox_id" -->
+        <!-- android:layout_width="wrap_content" -->
+        <!-- android:layout_height="wrap_content" /> -->
+
+
+        <!-- <TextView -->
+        <!-- android:layout_width="wrap_content" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:text="记住密码" /> -->
+
+
+        <!-- <CheckBox -->
+        <!-- android:id="@+id/login_autoBox_id" -->
+        <!-- android:layout_width="wrap_content" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:checked="false" /> -->
+
+
+        <!-- <TextView -->
+        <!-- android:layout_width="wrap_content" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:text="自动登录" /> -->
+        <!-- </LinearLayout> -->
+        <!-- <ImageView android:src="@drawable/ic_launcher" -->
+        <!-- android:layout_width="wrap_content" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:layout_toLeftOf="@id/miniTwitter_logo" -->
+        <!-- android:layout_alignBottom="@id/miniTwitter_logo" -->
+        <!-- android:paddingBottom="8dp"/> -->
+        
+        <ImageView
+            android:id="@+id/miniTwitter_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_launcher" />
+
+    </RelativeLayout>
+
+</LinearLayout>

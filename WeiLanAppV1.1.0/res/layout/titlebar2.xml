@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/skyblue"
+  >
+
+      <Button
+         android:id="@+id/back"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+         android:background="@drawable/back_style"
+         android:textColor="#FF0000FF"
+         android:textSize="18sp" />
+      
+<!--       <Button -->
+<!--          android:id="@+id/add" -->
+<!--          android:layout_width="wrap_content" -->
+<!--          android:layout_height="wrap_content" -->
+<!--          android:layout_alignParentRight="true" -->
+<!--          android:background="@drawable/add_style" -->
+<!--          android:textColor="#FF0000FF" -->
+<!--          android:textSize="18sp" /> -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerInParent="true"
+        android:text="@string/smsset"
+        android:textColor="@color/black"
+        android:textSize="23sp" />
+    
+
+   
+
+
+</RelativeLayout>

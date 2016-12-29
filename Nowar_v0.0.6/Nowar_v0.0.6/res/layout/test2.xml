@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gainsboro" >
+
+    <!-- android:background="@drawable/img_frame_background" -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@color/skyblue"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="16dp" >
+
+            <ImageView
+                android:id="@+id/test2_imageview"
+                android:layout_width="88dp"
+                android:layout_height="88dp"
+                android:layout_marginTop="16dp"
+                android:elevation="8dp"
+                android:src="@drawable/ic_user" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

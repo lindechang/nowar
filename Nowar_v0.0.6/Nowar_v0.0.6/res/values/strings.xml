@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, 家点点!</string>
+    <string name="app_name">微蓝</string>
+    <string name="action_settings">添加</string>
+   
+    
+<!--   菜单   -->
+ <string name="new_user">新用户</string>
+ <string name="menu_set">设置</string>
+ <string name="menu_about">关于</string>
+ <string name="menu_feedback">反馈</string>
+ <string name="menu_update">更新</string>
+ <string name="menu_friends">好友</string>
+ <string name="menu_exit">退出</string>
+ 
+ 
+  <string name="feedback_title">您的意见非常宝贵</string>
+
+</resources>

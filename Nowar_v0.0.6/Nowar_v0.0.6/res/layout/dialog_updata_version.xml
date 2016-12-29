@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android_custom="http://schemas.android.com/apk/res/com.nowar.main"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/dialog_bg"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/custom_dialog_title_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="正在下载..." 
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/custom_dialog_xain_id"
+        android:layout_width="fill_parent"
+        android:layout_height="1.0px"
+        android:layout_below="@id/custom_dialog_title_id"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/shape_line" />
+
+    <com.nowar.version.RoundProgressBar
+        android:id="@+id/custom_dialog_udpata_id"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/custom_dialog_xain_id"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="2dp"
+        android_custom:roundColor="#D1D1D1"
+        android_custom:roundProgressColor="@color/green"
+        android_custom:roundWidth="10dip"
+        android_custom:textColor="@color/green"
+        android_custom:textSize="18sp" />
+    
+
+
+</RelativeLayout>

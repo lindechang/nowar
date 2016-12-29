@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SetHeadActivity" >
+
+    <RelativeLayout
+        android:id="@+id/set_head_titlebar"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@color/skyblue" >
+
+        <Button
+            android:id="@+id/set_head_back_id"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/back_style"
+            android:textColor="#FF0000FF"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:text="头像设置"
+            android:textColor="@color/white"
+            android:textSize="23sp" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_takephoto"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/set_head_titlebar"
+        android:background="@color/white"
+        android:text="拍照" />
+
+    <View
+        android:id="@+id/set_head_text_xian_id"
+        android:layout_width="fill_parent"
+        android:layout_height="1.0px"
+        android:layout_below="@id/btn_takephoto"
+        android:background="@color/gainsboro" />
+
+    <Button
+        android:id="@+id/btn_photos"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/set_head_text_xian_id"
+        android:background="@color/white"
+        android:text="从相册取" />
+
+    <View
+        android:id="@+id/set_head_text_xian2_id"
+        android:layout_width="fill_parent"
+        android:layout_height="1.0px"
+        android:layout_below="@id/btn_photos"
+        android:background="@color/gainsboro" />
+
+    <ImageView
+        android:id="@+id/iv_head"
+        android:layout_width="200dip"
+        android:layout_height="200dip"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="210dip"
+        android:src="@drawable/ic_launcher" />
+
+</RelativeLayout>

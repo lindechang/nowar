@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/empty_cart_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background_fragment_gray" >
+
+    <RelativeLayout
+        android:id="@+id/about_wl_titlebar"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@color/skyblue" >
+
+        <Button
+            android:id="@+id/about_wl_back_id"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/back_style"
+            android:textColor="#FF0000FF"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:text="关于"
+            android:textColor="@color/white"
+            android:textSize="23sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/wl_rrr"
+        android:layout_width="fill_parent"
+        android:layout_height="400dp"
+        android:layout_below="@id/about_wl_titlebar"
+        android:background="@color/white" >
+
+        <ImageView
+            android:id="@+id/wl_map"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="75dp"
+            android:src="@drawable/ic_launcher" >
+        </ImageView>
+
+        <TextView
+            android:id="@+id/about_wl_version_text_id"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/wl_map"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="微蓝 1.0.1版本"
+            android:textSize="20dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/wl_rrr"
+        android:background="@color/background_fragment_gray" >
+
+        <TextView
+            android:id="@+id/text_c"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="微蓝科技"
+            android:textColor="@color/gray"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/text_c"
+            android:gravity="center_horizontal"
+            android:text="Copyright © 2015-3015 weilan.All Rights Reserved"
+            android:textColor="@color/gray"
+            android:textSize="15dp" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cha_empty_cart_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background_fragment_gray"
+    android:gravity="top"
+    tools:context="weilan.app.activity.AddDeviceActivity" >
+
+    <!-- <include -->
+    <!-- android:id="@+id/cha_title_id" -->
+    <!-- layout="@layout/add_device_view_titlebar" /> -->
+
+    <RelativeLayout
+        android:id="@+id/cha_title_id"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/skyblue" >
+
+        <Button
+            android:id="@+id/add_device_back_id"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/back_style"
+            android:textColor="#FF0000FF"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:text="添加设备"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/add_device_xiala_id"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/long_add_btn_style"
+            android:textColor="#FF0000FF"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <!-- <TextView -->
+    <!-- android:id="@+id/cha_textView1_id" -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_alignParentLeft="true" -->
+    <!-- android:layout_alignParentRight="true" -->
+    <!-- android:layout_below="@+id/cha_title_id" -->
+    <!-- android:text="设备序号" /> -->
+
+
+    <!-- <EditText -->
+    <!-- android:id="@+id/cha_editText1_id" -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_alignParentLeft="true" -->
+    <!-- android:layout_alignParentRight="true" -->
+    <!-- android:layout_below="@+id/cha_textView1_id" -->
+    <!-- android:ems="10" > -->
+    <!-- </EditText> -->
+
+
+    <!-- <TextView -->
+    <!-- android:id="@+id/cha_textView3_id" -->
+    <!-- android:layout_width="fill_parent" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_below="@id/cha_editText1_id" -->
+    <!-- android:text="设备绑定控制" /> -->
+
+
+    <!-- <LinearLayout -->
+    <!-- android:id="@+id/cha_Linear_id" -->
+    <!-- android:layout_width="fill_parent" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_below="@id/cha_textView3_id" -->
+    <!-- android:orientation="horizontal" > -->
+
+
+    <!-- <Button -->
+    <!-- android:id="@+id/cha_hostBtn_id" -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_weight="1" -->
+    <!-- android:text="查询设备" > -->
+    <!-- </Button> -->
+    <!-- </LinearLayout> -->
+
+    <LinearLayout
+        android:id="@+id/cha_Linear_id2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cha_title_id"
+        android:background="@drawable/writetogray"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="right"
+            android:gravity="center_vertical"
+            android:paddingRight="20.0dip"
+            android:src="@drawable/sw_button_open" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:drawablePadding="10.0dip"
+            android:gravity="center_vertical"
+            android:includeFontPadding="false"
+            android:paddingLeft="17.0dip"
+            android:text="新设备"
+            android:textColor="#ff333333"
+            android:textSize="32.0sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/check_text_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cha_title_id"
+        android:drawablePadding="10.0dip"
+        android:gravity="center_vertical"
+        android:includeFontPadding="false"
+        android:paddingLeft="17.0dip"
+        android:text="该设备未入网或已有主人"
+        android:textColor="@color/gray"
+        android:textSize="20.0sp"
+        android:visibility="gone" />
+
+    <!-- <LinearLayout -->
+    <!-- android:id="@+id/add_tb_id" -->
+    <!-- android:layout_width="120dp" -->
+    <!-- android:layout_height="60dp" -->
+    <!-- android:layout_alignParentBottom="true" -->
+    <!-- android:layout_marginBottom="30dp" -->
+    <!-- android:layout_alignWithParentIfMissing="false" -->
+    <!-- android:layout_centerHorizontal="true" -->
+    <!-- android:layout_centerVertical="false" > -->
+
+
+    <!-- android:layout_marginBottom="10dip" -->
+
+
+    <!-- <Button -->
+    <!-- android:id="@+id/pre" -->
+    <!-- android:layout_width="fill_parent" -->
+    <!-- android:layout_height="fill_parent" -->
+    <!-- android:layout_marginLeft="2dip" -->
+    <!-- android:layout_marginRight="2dip" -->
+    <!-- android:layout_weight="1.0" -->
+    <!-- android:background="@drawable/search" -->
+    <!-- android:onClick="nodeClick" /> -->
+
+
+    <!-- <Button -->
+    <!-- android:id="@+id/next" -->
+    <!-- android:layout_width="fill_parent" -->
+    <!-- android:layout_height="fill_parent" -->
+    <!-- android:layout_marginLeft="2dip" -->
+    <!-- android:layout_marginRight="2dip" -->
+    <!-- android:layout_weight="1.0" -->
+    <!-- android:background="@drawable/scan" -->
+    <!-- android:onClick="nodeClick" /> -->
+    <!-- </LinearLayout> -->
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </android.support.v4.view.ViewPager>
+
+</RelativeLayout>

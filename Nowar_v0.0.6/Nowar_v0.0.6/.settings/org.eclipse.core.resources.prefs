@@ -1,0 +1,15 @@
+eclipse.preferences.version=1
+encoding//src/com/nowar/activity/AboutActivity.java=UTF-8
+encoding//src/com/nowar/activity/SetHeadActivity.java=UTF-8
+encoding//src/com/nowar/main/AppManager.java=UTF-8
+encoding//src/com/nowar/service/NotifyService.java=UTF-8
+encoding//src/com/nowar/service/ServiceUtils.java=UTF-8
+encoding//src/com/nowar/tools/BitmapCache.java=UTF-8
+encoding//src/com/nowar/tools/BitmapUtil.java=UTF-8
+encoding//src/com/nowar/tools/CacheUtils.java=UTF-8
+encoding//src/com/nowar/tools/DeviceInfoUtil.java=UTF-8
+encoding//src/com/nowar/tools/FileUtil.java=UTF-8
+encoding//src/com/nowar/tools/LogManager.java=UTF-8
+encoding//src/com/nowar/tools/ScreenUtils.java=UTF-8
+encoding//src/com/nowar/tools/test_Bitmap.java=UTF-8
+encoding/version.txt=UTF-8

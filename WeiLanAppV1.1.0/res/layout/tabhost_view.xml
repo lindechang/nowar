@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Tab导航 最新版 -->
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tabhost"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <!-- TabWidget管理所有的选项卡，id名是android指定的 -->
+
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:visibility="gone" />
+
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#FFF" >
+        </FrameLayout>
+
+        <!-- Frame下放置单选群组替代TAB效果 -->
+
+        <RadioGroup
+            android:id="@+id/main_radio"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="#ccc"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/tab_icon_weixin"
+                style="@style/main_tab_bottom"
+                android:checked="true"
+                android:drawableTop="@drawable/custom_loc"
+                android:text="微信" />
+
+            <RadioButton
+                android:id="@+id/tab_icon_address"
+                style="@style/main_tab_bottom"
+                android:checked="false"
+                android:drawableTop="@drawable/custom_loc"
+                android:text="通讯录" />
+
+            <RadioButton
+                android:id="@+id/tab_icon_find"
+                style="@style/main_tab_bottom"
+                android:drawableTop="@drawable/custom_loc"
+                android:text="发现" />
+
+            <RadioButton
+                android:id="@+id/tab_icon_myself"
+                style="@style/main_tab_bottom"
+                android:drawableTop="@drawable/custom_loc"
+                android:text="我" />
+        </RadioGroup>
+    </RelativeLayout>
+
+</TabHost>

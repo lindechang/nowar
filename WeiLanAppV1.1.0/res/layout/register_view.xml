@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/background_fragment_gray"
+     >
+<!--       android:background="@drawable/chat_bg_default" -->
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@color/skyblue" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:text="微蓝"
+            android:textColor="@color/white"
+            android:textSize="23sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="欢迎使用微蓝"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1" >
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="用户名：" />
+
+            <EditText
+                android:id="@+id/reg_nameEdt_id"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="用户名/手机号/微信" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="密码：" />
+
+            <EditText
+                android:id="@+id/reg_passwordEdt_id"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="输入密码" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="邮箱：" />
+
+            <EditText
+                android:id="@+id/reg_emailEdt_id"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="输入邮箱" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="性别："
+                android:textSize="20dp" />
+
+            <RadioGroup
+                android:id="@+id/reg_sexRg_id"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:checkedButton="@+id/woman"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/reg_Man_id"
+                    android:text="男" />
+
+                <RadioButton
+                    android:id="@+id/reg_Woman_id"
+                    android:text="女" />
+            </RadioGroup>
+        </TableRow>
+
+        <TableRow>
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/reg_but_id"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1.00"
+            android:background="@drawable/button_blue"
+            android:text="注册" />
+
+        <Button
+            android:id="@+id/reg_cancal_id"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_red"
+            android:text="取消" />
+    </LinearLayout>
+
+</LinearLayout>
